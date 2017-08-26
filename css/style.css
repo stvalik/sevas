@@ -1,0 +1,89 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+/* Alternative solution with IE6+ support */
+ 
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+ 
+.clearfix:after {
+    clear: both;
+}
+ 
+header {
+	border-top: 19px solid #27aea6;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+.header-menu {
+	float: left;
+	width: 55%;
+}
+.header-contacts > ul, .header-menu > ul {
+	list-style-type: none;
+	padding: 0;
+}
+.header-menu > ul > li {
+	float: left;
+	text-transform: capitalize;
+}
+.header-list {
+	display: inline-block;
+	margin: 20px 10px;
+	text-decoration: none;
+	color: #1d818c;
+	font-size: 18px;
+	font-family: "Franklin Gothic Book";
+}
+.active {
+	color: #f42f17;
+}
+
+.header-contacts {
+	width: 45%;
+	float: left;
+}
+.header-contacts > ul > li > a {
+	float: left;
+	text-decoration: none;
+	color:#fff;
+}
+.header-contacts > ul {
+	margin: 0;
+}
+.call-us {
+	padding: 10px 22px 10px 56px;
+	background: url(../img/phone-icon.png) #5f9ed9 5% center no-repeat;
+	font-size: 15px;
+	border-radius: 4px;
+	margin: 25px 10px 25px 0;
+}
+.mail {
+	padding: 10px 22px 10px 56px;
+	font-size: 15px;
+	background: url(../img/mail-icon.png) #f54242 5% center no-repeat; 
+	border-radius: 4px;
+	margin: 25px 20px 25px 10px;
+}
+.skype {
+	background: url(../img/skype-icon.png) center no-repeat;
+	width: 42px;
+	height: 42px;
+	margin: 22px 10px 22px 20px;
+}
+.viber {
+	background: url(../img/viber-icon.png) center no-repeat;
+	width: 43px;
+	height: 45px;
+	margin: 21px 0 23px 11px;
+}
